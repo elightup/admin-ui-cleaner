@@ -1,5 +1,5 @@
 <?php
-namespace ELUAdminCleaner;
+namespace AUC;
 
 class Dashboard {
 	public function __construct() {

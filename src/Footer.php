@@ -1,5 +1,5 @@
 <?php
-namespace ELUAdminCleaner;
+namespace AUC;
 
 class Footer {
 	public function __construct() {

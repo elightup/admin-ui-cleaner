@@ -1,5 +1,5 @@
 <?php
-namespace ELUAdminCleaner;
+namespace AUC;
 
 class AdminBar {
 	public function __construct() {
