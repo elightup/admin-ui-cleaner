@@ -18,6 +18,9 @@ class Dashboard {
 		remove_meta_box( 'dashboard_recent_drafts', 'dashboard', 'normal' );
 		remove_meta_box( 'dashboard_secondary', 'dashboard', 'normal' );
 
+		// Gutenberg.
+		remove_action( 'try_gutenberg_panel', 'wp_try_gutenberg_panel' );
+
 		// Elementor.
 		remove_meta_box( 'e-dashboard-overview', 'dashboard', 'normal' );
 	}
