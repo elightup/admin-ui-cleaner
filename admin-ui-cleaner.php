@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name: Admin UI Cleaner
- * Plugin URI:  https://elightup.com
  * Description: Cleanup WordPress admin area.
  * Version:     1.0.0
  * Author:      eLightUp
