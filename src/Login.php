@@ -3,8 +3,11 @@ namespace AUC;
 
 class Login {
 	public function __construct() {
+		global $wp_version;
+
 		add_action( 'login_headerurl', [ $this, 'header_url' ] );
-		add_action( 'login_headertitle', [ $this, 'header_title' ] );
+		$header_text_filter = version_compare( $wp_version, '5.2.0', '<' ) ? 'login_headertitle' : 'login_headertext';
+		add_action( $header_text_filter, [ $this, 'header_title' ] );
 		add_action( 'login_head', [ $this, 'css' ] );
 	}
 
