@@ -4,7 +4,7 @@ Donate link: https://elightup.com
 Tags: admin, ui, widget, ui cleaner, minimize, hide
 Requires at least: 4.3
 Tested up to: 5.2.2
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 
 Admin UI Cleaner is a simple WordPress plugin that cleans up unecessary parts in WordPress, making the admin area cleaner for clients.
@@ -21,6 +21,7 @@ The plugin doesn't require any configuration, just install and let it does the j
 - Remove the WordPress logo in the admin bar.
 - Remove all WordPress widgets in the dashboard.
 - Remove the WordPress update notice message, still keep the updates available under Dashboard > Updates.
+- Add custom CSS for the admin area.
 
 Besides, it allows you to change the login logo:
 
@@ -59,10 +60,16 @@ The plugin does not have any configuration. After activating, the plugin automat
 
 == Changelog ==
 
+= 1.1.0 =
+
+- Add admin CSS feature.
+
 = 1.0.1 =
+
 - Fix filter name for login header title.
 
 = 1.0.0 =
+
 - Initial release.
 
 == Upgrade Notice ==
