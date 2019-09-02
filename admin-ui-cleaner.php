@@ -22,6 +22,7 @@ if ( ! is_admin() ) {
 new AUC\Dashboard;
 new AUC\Notices;
 new AUC\Footer;
+new AUC\AdminCSS;
 
 add_action( 'admin_enqueue_scripts', function() {
 	wp_enqueue_style( 'elu-admin-cleaner', plugin_dir_url( __FILE__ ) . '/cleaner.css' );
