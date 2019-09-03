@@ -9,7 +9,7 @@ class AdminCSS {
 	}
 
 	public function add_menu() {
-		add_options_page( __( 'Admin UI Cleaner', 'admin-ui-cleaner' ), __( 'Admin UI Cleaner', 'admin-ui-cleaner' ), 'manage-options', 'admin-ui-cleaner', [ $this, 'render' ] );
+		add_options_page( __( 'Admin UI Cleaner', 'admin-ui-cleaner' ), __( 'Admin UI Cleaner', 'admin-ui-cleaner' ), 'manage_options', 'admin-ui-cleaner', [ $this, 'render' ] );
 	}
 
 	public function render() {
