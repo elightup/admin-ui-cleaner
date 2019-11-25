@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Admin UI Cleaner
  * Description: Cleanup WordPress admin area.
- * Version:     1.1.1
+ * Version:     1.1.2
  * Author:      eLightUp
  * Author URI:  https://elightup.com
  * License:     GPL2+
@@ -10,7 +10,7 @@
  * Domain Path: /languages/
  */
 
-require 'vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 new AUC\AdminBar;
 new AUC\Login;
