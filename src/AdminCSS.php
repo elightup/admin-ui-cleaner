@@ -35,14 +35,14 @@ class AdminCSS {
 
 	public function render_css_field() {
 		?>
-		<textarea name="admin_ui_cleaner[css]" class="large-text" rows="10" style="font-family: monospace;"><?php echo esc_textarea( $this->get_css() ); ?></textarea>
+		<textarea name="admin_ui_cleaner[css]" class="large-text" rows="30" style="font-family: monospace;"><?php echo esc_textarea( $this->get_css() ); ?></textarea>
 		<?php
 	}
 
 	public function output_css() {
 		$css = $this->get_css();
 		if ( $css ) {
-			echo '<style>', esc_html( $css ), '</style>';
+			echo '<style>', wp_strip_all_tags( $css ), '</style>';
 		}
 	}
 
