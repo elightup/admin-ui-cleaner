@@ -30,7 +30,7 @@ class AdminCSS {
 	public function register_settings() {
 		register_setting( 'admin-ui-cleaner', 'admin_ui_cleaner' );
 		add_settings_section( 'general', ' ', '__return_empty_string', 'admin-ui-cleaner' );
-    	add_settings_field( 'css', __( 'Admin CSS', 'admin-ui-cleaner' ), [ $this, 'render_css_field' ], 'admin-ui-cleaner', 'general' );
+		add_settings_field( 'css', __( 'Admin CSS', 'admin-ui-cleaner' ), [ $this, 'render_css_field' ], 'admin-ui-cleaner', 'general' );
 	}
 
 	public function render_css_field() {
@@ -42,7 +42,7 @@ class AdminCSS {
 	public function output_css() {
 		$css = $this->get_css();
 		if ( $css ) {
-			echo '<style>', wp_strip_all_tags( $css ), '</style>';
+			echo '<style>', esc_html( wp_strip_all_tags( $css ) ), '</style>';
 		}
 	}
 

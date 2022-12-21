@@ -7,11 +7,11 @@ Tested up to: 6.1.1
 Stable tag: 1.2.0
 License: GPLv2 or later
 
-Admin UI Cleaner is a simple WordPress plugin that cleans up unecessary parts in WordPress, making the admin area cleaner for clients.
+Admin UI Cleaner is a simple WordPress plugin that cleans up unnecessary parts in WordPress, making the admin area cleaner for clients.
 
 == Description ==
 
-Admin UI Cleaner is a simple WordPress plugin that cleans up unecessary parts in WordPress, making the admin area cleaner for clients.
+Admin UI Cleaner is a simple WordPress plugin that cleans up unnecessary parts in WordPress, making the admin area cleaner for clients.
 
 The plugin doesn't require any configuration, just install and let it does the job automatically.
 

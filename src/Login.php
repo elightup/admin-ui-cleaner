@@ -35,9 +35,10 @@ class Login {
 		<?php else : ?>
 			<style>
 			.login h1 a {
-				background-image: url(<?= $icon ?>);
+				background-image: url(<?= esc_url( $icon ) ?>);
 			}
 			</style>
-		<?php endif;
+			<?php
+		endif;
 	}
 }

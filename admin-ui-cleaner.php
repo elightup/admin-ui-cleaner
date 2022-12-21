@@ -26,5 +26,5 @@ new AUC\AdminCSS;
 new AUC\Integrations\Jetpack;
 
 add_action( 'admin_enqueue_scripts', function() {
-	wp_enqueue_style( 'elu-admin-cleaner', plugin_dir_url( __FILE__ ) . '/cleaner.css' );
+	wp_enqueue_style( 'elu-admin-cleaner', plugin_dir_url( __FILE__ ) . '/cleaner.css', [], filemtime( __DIR__ . '/cleaner.css' ) );
 } );

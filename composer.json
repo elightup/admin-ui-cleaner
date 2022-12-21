@@ -3,5 +3,11 @@
     "psr-4": {
         "AUC\\": "src/"
     }
+  },
+  "scripts": {
+    "format": [
+      "phpcbf src/",
+      "phpcbf src/ --standard=Generic --sniffs=Generic.Arrays.DisallowLongArraySyntax"
+    ]
   }
 }
